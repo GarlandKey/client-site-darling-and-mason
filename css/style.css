@@ -1,0 +1,614 @@
+/******************************************
+/* base styles
+/*******************************************/
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  display: flex;
+  background: #eeeeee;
+  color: #666666;
+  font-size: 62.5%;
+  justify-content: center;
+}
+
+body {
+  border: 1px solid #cecece;
+  display: flex;
+  flex-flow: column nowrap;
+  background: white;
+  font-family: 'Raleway', sans-serif;  
+  max-width: 1100px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: .25rem;
+  padding: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 2.5rem;
+  padding: 1rem .5rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-justify: auto;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topnav .blk-btn {
+  align-self: center;
+	background-color: #666666;
+  border: 1px solid #666666;
+  border-radius: .5rem;
+	color: #ebebeb;
+	padding: 2rem;
+  font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blk-btn:hover {
+  background: #ebebeb;
+  border: 1px solid #666666;
+  color: #666666;
+  text-decoration: none;
+}
+
+/******************************************
+/* top navigation
+/*******************************************/
+
+.topnav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+}
+
+.topnav ul {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-around;
+  list-style-type: none;
+  max-width: 1100px;
+  text-transform: uppercase;
+  width: 80rem;
+}
+
+
+/******************************************
+/* hero
+/*******************************************/
+
+header {
+  background: url("../images/hero.png") no-repeat;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 50rem;
+  justify-content: flex-start;
+  padding-left: 10rem;
+  padding-top: 10rem;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.logo {
+  background: rgba(0,0,0,.8);
+  border-radius: 0 5rem 0 5rem;
+  padding: 5rem;
+  width: 42rem;
+}
+
+#darling, #mason {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+
+#darling {
+  letter-spacing: .31rem;
+  text-transform: uppercase;
+}
+
+#mason {
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+#premier-salon {
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: .238rem;
+  padding-top: .5rem;
+  text-transform: uppercase;
+}
+
+/******************************************
+/* welcome
+/*******************************************/
+
+.welcome {
+  align-items: center;
+  display: flex;
+  background: #ebebeb;
+  border-radius: 1rem;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 1rem;
+  color: #666;
+  padding: 5rem 0 8rem 0;
+}
+
+.welcome > h2, .welcome > p {
+  width: 65rem;
+}
+
+.welcome > p + p {
+  padding-top: 2rem;
+}
+
+/******************************************
+/* lookbook
+/*******************************************/
+
+.lookbook-flex {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.lookbook-grid {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.lookbook-grid section {
+  background: white;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.lookbook-grid img {
+  border-radius: 1rem;
+  margin: .5rem;
+}
+
+.img-1-2 {
+  height: 70rem;
+  object-fit: cover;
+  object-position: center;
+  width: 35rem;
+}
+
+.img-1-1 {
+  height: 35rem;
+  object-fit: cover;
+  object-position: center;
+  width: 35rem;
+}
+
+/******************************************
+/* staff
+/*******************************************/
+
+.staff {
+  align-items: center;
+  background: #ebebeb;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-items: center;
+  margin: 1rem;
+  padding: 2.6rem;
+}
+
+.staff > section {
+  display: grid;
+  gap: 2.1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.staff > section > img {
+  height: 30rem;
+  border-radius: 30rem;
+  object-fit: cover;
+  object-position: top;
+  width: 30rem;
+}
+
+/******************************************
+/* services
+/*******************************************/
+
+.services {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.services li {
+  font-size: 1.8rem;
+  padding: .5rem;
+}
+
+/******************************************
+/* location
+/*******************************************/
+
+.location {
+  background: #ebebeb;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 2.6rem;
+}
+
+.location-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.location img {
+  border: 1px solid #cecece;
+  border-radius: 1rem;
+  height: 30rem;
+  object-fit: cover;
+  object-position: center;
+  width: 45rem;
+}
+
+.location address, .location li {
+  font-size: 1.8rem;
+  padding: .5rem;
+}
+
+/******************************************
+/* contact
+/*******************************************/
+
+.grid-flex-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+#contact p {
+  padding-bottom: 3.5rem;
+  width: 60rem;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+#subject, #message, #submit {
+  grid-column: 1/3;
+}
+
+/* forms */
+
+input[type="tel"],
+input[type="text"],
+input[type="email"],
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: #eeeeee;
+  border-radius: 1rem;
+  border: solid 1px transparent;
+  color: #666666;
+  outline: 0;
+  padding: 1rem;
+  resize: none;
+  text-decoration: none;
+}
+
+input[type="tel"],
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #cecece;
+}
+
+::-moz-selection, ::selection {
+  background: #666666;
+  color: #eeeeee;
+}
+
+#first, #last, #phone, #email, #subject {
+  height: 5rem;
+}
+
+#first, #last, #phone, #email {  
+  width: 29.5rem;
+}
+
+#subject, #message {
+  width: 60rem;
+}
+
+#message {
+  height: 30rem;
+}
+
+#submit {
+  align-self: center;
+	background-color: #666666;
+  border: 1px solid #666666;
+  border-radius: 1rem;
+	color: #ebebeb;
+	padding: 2rem;
+  font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	text-decoration: none;
+  text-transform: uppercase;
+  width: 60rem;
+}
+
+#submit:hover {
+  background: #ebebeb;
+  border: 1px solid #666666;
+  color: #666666;
+}
+
+/******************************************
+/* footer
+/*******************************************/
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+}
+
+footer ul {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-around;
+  list-style-type: none;
+  max-width: 1100px;
+  text-transform: uppercase;
+  width: 80rem;
+}
+
+footer > section > small,
+footer > section > small > a:link,
+footer > section > small > a:visited,
+footer > section > small > a:hover,
+footer > section > small > a:active {
+  color: #666666;
+  font-size: 1rem;
+}
+
+/******************************************
+/* media queries
+/*******************************************/
+
+@media screen and (max-width: 500px) {
+
+  h4 {
+    font-size: 2.5rem;
+    padding: 1rem .5rem;
+  }
+  
+  p {
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    width: 32rem;
+  }
+
+  #darling, #mason {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+  
+  #darling {
+    letter-spacing: .31rem;
+  }
+  
+  #mason {
+    letter-spacing: .16rem;
+  }
+  #premier-salon {
+    font-size: 2.4rem;
+    letter-spacing: .230rem;
+  }
+
+  section.welcome {
+    padding: 2rem ;
+  }
+
+  section.welcome > h2, section.welcome > p {
+    width: auto;
+  }
+
+  .lookbook-grid .img-1-1 {
+    width: calc(100vw - 4rem) !important;
+  }
+
+  .lookbook-grid .img-1-2 {
+    width: calc(100vw - 4rem) !important;
+  }
+
+  .location img {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  h2 {
+    font-size: 3rem !important;
+    letter-spacing: .15rem;
+  }
+
+  header {
+    padding-left: 0;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  #contact {
+    padding: 0 2rem;
+  }
+
+  #contact p {
+    width: 90vw;
+  }
+
+  #first, #last, #phone, #email, #subject, #message, #submit {
+    grid-column: 1/3;
+    width: 90vw;
+  }
+
+  #message {
+    height: 15rem;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .welcome {
+    padding: 5rem 2rem;
+  }
+
+  .welcome > h2 {
+    width: 40rem;
+  }
+
+  .welcome > p {
+    width: auto;
+  }
+
+  .staff > section {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) { 
+  .services {
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  .services li:last-of-type {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .topnav {
+    display: none;
+  }
+
+  header {
+    margin: 1rem;
+  }
+
+  .lookbook-grid {
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  .lookbook-grid .img-1-1 {
+    width: 450px;
+  }
+
+  .lookbook-grid .img-1-2 {
+    width: 450px;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+
+  .location-flex {
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  .location h4 {
+    text-align: center;
+  }
+
+  .location address {
+    padding-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    width: 100vw;
+  }
+
+  .img-1-1 {
+    width: calc(33.3333vw - 4rem);
+  }
+
+  .img-1-2 {
+    width: calc(33.3333vw - 4rem);
+  }
+
+  .staff > section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #contact {
+    padding: 0 calc(50vw - 30rem);
+  }
+
+}
+

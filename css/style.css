@@ -234,12 +234,58 @@ header {
   justify-items: center;
 }
 
-.staff > section > img {
-  height: 30rem;
+.staff > section > .staff-img {
+  align-items: center;
   border-radius: 30rem;
-  object-fit: cover;
-  object-position: top;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 30rem;
+  justify-content: center;
+  transition: all .2s ease-in-out;
   width: 30rem;
+}
+
+.staff-txt-container {
+  align-items: center;
+  color: transparent;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 30rem;
+  justify-content: center;
+  width: 30rem;
+}
+
+.staff > section > .staff-img > .staff-txt-container > h5 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.staff > section > .staff-img > .staff-txt-container > h6 {
+  font-size: 2rem;
+}
+
+#staff-darling {
+  background: url(../images/alita-darling.png);
+}
+
+#staff-mason {
+  background: url(../images/yafir-mason.png);
+}
+
+#staff-adams {
+  background: url(../images/bella-adams.png);
+}
+
+#staff-dunbar {
+  background: url(../images/ted-dunbar.png);
+}
+
+#staff-cohen {
+  background: url(../images/yennefer-cohen.png);
+}
+
+#staff-alvarez {
+  background: url(../images/julia-alvarez.png);
 }
 
 /******************************************
@@ -423,6 +469,84 @@ footer > section > small > a:active {
 /******************************************
 /* media queries
 /*******************************************/
+
+/* mouse & trackball */
+@media (hover: hover){
+  .staff > section > .staff-img:hover {
+    transform: scale(1.1);
+  }
+
+  .staff-txt-container:hover {
+    color: white;
+  }
+
+  .staff > section > .staff-img > .staff-txt-container:hover {
+    color: white;
+  }
+
+  #staff-darling:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/alita-darling.png);
+  }
+
+  #staff-mason:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yafir-mason.png);
+  }
+
+  #staff-adams:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/bella-adams.png);
+  }
+
+  #staff-dunbar:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/ted-dunbar.png);
+  }
+
+  #staff-cohen:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yennefer-cohen.png);
+  }
+
+  #staff-alvarez:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/julia-alvarez.png);
+  }
+}
+
+/* touchscreen */
+@media (pointer: coarse){
+  .staff > section > .staff-img:active {
+    transform: scale(1.1);
+  }
+
+  .staff-txt-container:active {
+    color: white;
+  }
+
+  .staff > section > .staff-img > .staff-txt-container:active {
+    color: white;
+  }
+
+  #staff-darling:active {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/alita-darling.png);
+  }
+
+  #staff-mason:active {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yafir-mason.png);
+  }
+
+  #staff-adams:active {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/bella-adams.png);
+  }
+
+  #staff-dunbar:active {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/ted-dunbar.png);
+  }
+
+  #staff-cohen:active {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yennefer-cohen.png);
+  }
+
+  #staff-alvarez:active {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/julia-alvarez.png);
+  }
+}
 
 @media screen and (max-width: 500px) {
 

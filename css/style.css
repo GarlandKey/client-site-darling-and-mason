@@ -253,6 +253,14 @@ header {
   height: 30rem;
   justify-content: center;
   width: 30rem;
+
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  user-select: none; /* Modern Browsers */
 }
 
 .staff > section > .staff-img > .staff-txt-container > h5 {

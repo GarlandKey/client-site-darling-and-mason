@@ -103,7 +103,7 @@ a:hover {
 /*******************************************/
 
 header {
-  background: url("../images/hero.png") no-repeat;
+  background: url("../images/hero.webp") no-repeat;
   border-radius: 1rem;
   color: white;
   display: flex;
@@ -273,27 +273,27 @@ header {
 }
 
 #staff-darling {
-  background: url(../images/alita-darling.png);
+  background: url(../images/alita-darling.webp);
 }
 
 #staff-mason {
-  background: url(../images/yafir-mason.png);
+  background: url(../images/yafir-mason.webp);
 }
 
 #staff-adams {
-  background: url(../images/bella-adams.png);
+  background: url(../images/bella-adams.webp);
 }
 
 #staff-dunbar {
-  background: url(../images/ted-dunbar.png);
+  background: url(../images/ted-dunbar.webp);
 }
 
 #staff-cohen {
-  background: url(../images/yennefer-cohen.png);
+  background: url(../images/yennefer-cohen.webp);
 }
 
 #staff-alvarez {
-  background: url(../images/julia-alvarez.png);
+  background: url(../images/julia-alvarez.webp);
 }
 
 /******************************************
@@ -493,27 +493,27 @@ footer > section > small > a:active {
   }
 
   #staff-darling:hover {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/alita-darling.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/alita-darling.webp);
   }
 
   #staff-mason:hover {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yafir-mason.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yafir-mason.webp);
   }
 
   #staff-adams:hover {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/bella-adams.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/bella-adams.webp);
   }
 
   #staff-dunbar:hover {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/ted-dunbar.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/ted-dunbar.webp);
   }
 
   #staff-cohen:hover {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yennefer-cohen.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yennefer-cohen.webp);
   }
 
   #staff-alvarez:hover {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/julia-alvarez.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/julia-alvarez.webp);
   }
 }
 
@@ -532,27 +532,27 @@ footer > section > small > a:active {
   }
 
   #staff-darling:active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/alita-darling.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/alita-darling.webp);
   }
 
   #staff-mason:active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yafir-mason.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yafir-mason.webp);
   }
 
   #staff-adams:active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/bella-adams.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/bella-adams.webp);
   }
 
   #staff-dunbar:active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/ted-dunbar.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/ted-dunbar.webp);
   }
 
   #staff-cohen:active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yennefer-cohen.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/yennefer-cohen.webp);
   }
 
   #staff-alvarez:active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/julia-alvarez.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url(../images/julia-alvarez.webp);
   }
 }
 

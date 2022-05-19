@@ -13,7 +13,6 @@ This is a static website that I designed for a local salon.
 I created this site from scratch without the help of any frameworks - it's pure HTML and CSS. I designed the site with high contrast colors in mind for visual accessibility. I also made sure to label everything for optimum readability by screen readers.
 
 ## Optimizations
-*(optional)*
 
 Once I was finished with the prototype, I refactored it to greatly reduced load times. I accomplished this by redesigning the logo using pure HTML/CSS and converting all of the images into webp format.
 
